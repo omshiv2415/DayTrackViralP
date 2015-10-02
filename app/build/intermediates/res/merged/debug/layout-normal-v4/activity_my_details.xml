@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viral.omshiv.daytrackviralp.Settings"
+    android:background="@drawable/back">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="#D9FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:id="@+id/textView21"
+            android:textSize="@dimen/abc_action_bar_title_text_size"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Name"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView21"
+            android:layout_alignStart="@+id/editTextName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:focusable="false"
+            android:ems="10"
+            android:id="@+id/editTextDateofBirth"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/lastname"
+            android:layout_alignEnd="@+id/editTextLastname" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Last Name"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="86dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Date of Birth *"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/lastname"
+            android:layout_marginTop="156dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            android:layout_marginRight="10dp"
+
+            android:ems="10"
+            android:id="@+id/editTextName"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editTextLastname"
+
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/lastname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Gender *"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/editTextDateofBirth"
+            android:layout_marginTop="2dp"
+            android:layout_alignStart="@+id/editTextDateofBirth" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextgender"
+
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignStart="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email"
+            android:id="@+id/textView6"
+            android:layout_marginTop="2dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/editTextgender"
+            android:layout_alignStart="@+id/editTextgender" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+
+            android:id="@+id/editTextemail"
+            android:layout_below="@+id/textView6"
+            android:layout_alignStart="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="User Name *"
+            android:id="@+id/textView7"
+
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/editTextemail"
+            android:layout_alignStart="@+id/editTextemail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:focusable="false"
+            android:id="@+id/editTextusername"
+            android:layout_below="@+id/textView7"
+            android:layout_marginRight="10dp"
+            android:layout_alignStart="@+id/editTextemail" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:id="@+id/update"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/layout-normal/activity_my_details.xml -->

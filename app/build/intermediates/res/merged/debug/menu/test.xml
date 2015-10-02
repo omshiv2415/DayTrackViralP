@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.viral.omshiv.daytrackviralp.RunActivity">
+
+    <item
+        android:id="@+id/action_photo"
+        android:icon="@drawable/ic_action_photo"
+        android:title=""
+        android:layout_gravity="center_horizontal"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_gps"
+        android:icon="@drawable/icon_gps"
+        android:title=""
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_voice"
+        android:title="Canada"
+        android:orderInCategory="4" />
+    <item
+        android:id="@+id/action_voice_us"
+        android:title="USA"
+        android:orderInCategory="4" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:orderInCategory="4" />
+    <item
+        android:id="@+id/action_reset"
+        android:title="Reset Steps"
+        android:orderInCategory="3" />
+
+
+</menu>
+<!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/menu/test.xml -->

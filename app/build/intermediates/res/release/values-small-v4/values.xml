@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/BSC%20COMPUTING%20SYSTEMS/Final%20Submission%2060%20Marks/dayTrackViralP2/app/src/main/res/values-small/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="box_width">150.0px</dimen>
+    <dimen name="button">52.0sp</dimen>
+    <dimen name="button_sign">26.0sp</dimen>
+    <dimen name="desired_pace">24.0sp</dimen>
+    <dimen name="desired_pace_width">100.0sp</dimen>
+    <dimen name="large_half">160.0px</dimen>
+    <dimen name="margin">10.0px</dimen>
+    <dimen name="padding">5.0px</dimen>
+    <dimen name="row_height">130.0px</dimen>
+    <dimen name="row_spacing">10.0px</dimen>
+    <dimen name="small_value">24.0sp</dimen>
+    <dimen name="step_count">20.0sp</dimen>
+    <dimen name="third_box_width">103.0px</dimen>
+    <dimen name="third_box_width_middle">104.0px</dimen>
+    <dimen name="units">10.0sp</dimen>
+    <dimen name="value">30.0sp</dimen>
+    <!-- From: file:/C:/BSC%20COMPUTING%20SYSTEMS/Final%20Submission%2060%20Marks/dayTrackViralP2/app/src/main/res/values-small/strings.xml -->
+    <eat-comment />
+
+    <string name="Normal">Normal</string>
+    <string name="str_rb_satellite">Satelliter</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viral.omshiv.daytrackviralp.Settings"
+    android:background="@drawable/back"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D9FFFFFF"
+
+        android:id="@+id/relativeLayout">
+        <ListView
+            android:id="@+id/HistoryListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_blue_light"
+            android:fastScrollEnabled="true"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:listSelector="@android:color/holo_orange_dark"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/divider"
+            android:longClickable="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/layout/activity_history.xml -->

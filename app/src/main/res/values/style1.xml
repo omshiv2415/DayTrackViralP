@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="MyTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style name="MyActionBar">
+        <item name="android:background">#FFFFEB3A</item>
+    </style>
+</resources>
+
+

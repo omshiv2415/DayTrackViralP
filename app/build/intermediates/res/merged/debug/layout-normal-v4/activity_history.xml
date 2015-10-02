@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viral.omshiv.daytrackviralp.Settings"
+    android:background="@drawable/back"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="#8099FF6E"
+
+        android:id="@+id/relativeLayout">
+        <ListView
+            android:id="@+id/HistoryListView"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:fastScrollEnabled="true"
+
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:listSelector="@android:color/holo_orange_dark"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/divider"
+            android:longClickable="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History of My Activity"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/RFSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/layout-normal/activity_history.xml -->

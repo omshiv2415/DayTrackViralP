@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_half">240.0px</dimen>
+    <dimen name="value">30.0sp</dimen>
+    <dimen name="small_value">42.0sp</dimen>
+    <dimen name="step_count">42.0sp</dimen>
+    <dimen name="units">16.0sp</dimen>
+    <dimen name="desired_pace">48.0sp</dimen>
+    <dimen name="desired_pace_width">192.0sp</dimen>
+    <dimen name="button">64.0sp</dimen>
+    <dimen name="button_sign">24.0sp</dimen>
+    <dimen name="margin">10.0px</dimen>
+    <dimen name="padding">5.0px</dimen>
+    <dimen name="row_spacing">20.0px</dimen>
+    <dimen name="row_height">130.0px</dimen>
+    <dimen name="box_width">150.0px</dimen>
+    <dimen name="third_box_width">103.0px</dimen>
+    <dimen name="third_box_width_middle">104.0px</dimen>
+    <dimen name="distance">40.0px</dimen>
+</resources>

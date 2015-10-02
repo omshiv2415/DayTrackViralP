@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viral.omshiv.daytrackviralp.Settings"
+    android:background="@drawable/back">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D9FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="85dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Start Time :"
+            android:id="@+id/textView"
+            android:layout_marginLeft="27dp"
+            android:layout_above="@+id/finishtime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="35dp"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/starttime"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_marginLeft="26dp"
+            android:layout_alignBottom="@+id/textView"
+            android:background="@drawable/username"
+            android:layout_toRightOf="@+id/textView"
+            android:clickable="true"
+            android:editable="true"
+            android:gravity="center"
+
+            android:enabled="true"
+            android:hint="10:00 AM" />
+
+        <RelativeLayout
+
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#D9000000"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout2">
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Finish Time :"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="58dp"
+            android:textColor="@android:color/background_dark"
+
+            android:layout_above="@+id/relativeLayout2"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/finishtime"
+            android:background="@drawable/username"
+
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/starttime"
+            android:layout_alignStart="@+id/starttime"
+            android:clickable="true"
+            android:gravity="center"
+
+            android:editable="true"
+            android:enabled="true"
+            android:hint="11:00 AM" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weight : kg"
+            android:id="@+id/textView3"
+
+            android:layout_alignBottom="@+id/lastname"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/Height"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignLeft="@+id/finishtime"
+            android:layout_alignStart="@+id/finishtime"
+            android:background="@drawable/username"
+            android:gravity="center"
+            android:maxLength="3"
+
+            android:clickable="false"
+            android:editable="true"
+            android:enabled="true"
+            android:hint="184" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Height : cm"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="65dp"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:id="@+id/lastname"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/Height"
+            android:layout_alignLeft="@+id/Height"
+            android:layout_alignStart="@+id/Height"
+            android:background="@drawable/username"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:editable="true"
+            android:enabled="true"
+            android:hint="70" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/background_dark" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/set"
+        android:id="@+id/setBtn"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/layout-normal/activity_setting_additional.xml -->

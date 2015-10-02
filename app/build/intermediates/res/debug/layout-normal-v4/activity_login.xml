@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.viral.omshiv.user.HomePage"
+    android:id="@+id/viral"
+    android:background="@drawable/back"
+    android:visibility="visible">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="User Name"
+        android:id="@+id/usernameLoginTextBox"
+        style="@android:style/Animation.Toast"
+        android:autoText="true"
+
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@android:color/background_dark"
+        android:background="@drawable/username"
+        android:textIsSelectable="false"
+
+        android:paddingLeft="15dp"
+        android:inputType="text"
+        android:maxLength="@integer/restrictuser"
+        android:focusable="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/passwordLoginTextBox"
+        style="@android:style/Animation.Toast"
+        android:autoText="true"
+        android:inputType="textPassword"
+        android:textColor="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@android:drawable/ic_lock_lock"
+        android:layout_below="@+id/usernameLoginTextBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:password="true"
+        android:background="@drawable/username"
+        android:textIsSelectable="false"
+        android:paddingLeft="15dp"
+        android:maxLength="@integer/password"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:id="@+id/loginBtn"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/button"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="false"
+        android:layout_above="@+id/reset"
+
+        android:layout_alignLeft="@+id/createAccountbtnLogin"
+        android:layout_alignStart="@+id/createAccountbtnLogin"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Register Account"
+        android:id="@+id/createAccountbtnLogin"
+        android:background="@drawable/button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/background_dark"
+
+        android:textSize="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/Password_Reset"
+        android:id="@+id/reset"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/com_facebook_loginview_log_in_button"
+        android:textColor="@color/com_facebook_loginview_text_color"
+        android:textSize="@dimen/com_facebook_loginview_text_size"
+        android:textStyle="bold"
+        android:background="@drawable/com_facebook_button_blue"
+        android:drawableLeft="@drawable/com_facebook_inverse_icon"
+        android:drawablePadding="@dimen/com_facebook_likebutton_compound_drawable_padding"
+        android:paddingLeft="@dimen/com_facebook_loginview_padding_left"
+        android:paddingTop="@dimen/com_facebook_loginview_padding_top"
+        android:paddingRight="@dimen/com_facebook_loginview_padding_right"
+        android:paddingBottom="@dimen/com_facebook_loginview_padding_bottom"
+        android:onClick="onLoginClick"
+
+        android:layout_above="@+id/createAccountbtnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/BSC%20COMPUTING%20SYSTEMS/Final%20Submission%2060%20Marks/dayTrackViralP2/app/src/main/res/layout-normal/activity_login.xml -->

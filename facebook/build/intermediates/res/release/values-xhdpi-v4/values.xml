@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/BSC%20COMPUTING%20SYSTEMS/Final%20Submission%2060%20Marks/dayTrackViralP2/facebook/res/values-xhdpi/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="com_facebook_picker_divider_width">2px</dimen>
+
+</resources>

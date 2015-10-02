@@ -1,0 +1,321 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    android:id="@+id/runActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#D9FFA01C"
+            android:padding="@dimen/margin"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/row_1"
+                android:paddingBottom="@dimen/row_spacing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:id="@id/box_steps"
+                    android:paddingRight="@dimen/margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="@dimen/value"
+                        android:gravity="center_horizontal"
+                        android:id="@id/step_value"
+                        android:background="@android:color/background_dark"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:hint="@string/hint"
+                        android:textColorHint="@android:color/holo_orange_dark"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textSize="@dimen/units"
+                        android:gravity="center_horizontal"
+                        android:id="@id/step_units"
+                        android:background="@android:color/background_dark"
+                        android:paddingBottom="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/steps"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:id="@id/box_distance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+
+                    <Chronometer
+                        android:textSize="@dimen/value"
+                        android:gravity="center_horizontal"
+                        android:id="@id/chrommeter"
+                        android:background="@android:color/background_dark"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:hint="@string/hint"
+                        android:textColorHint="@android:color/holo_orange_dark"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textSize="@dimen/units"
+                        android:gravity="center_horizontal"
+                        android:id="@id/distance_units"
+                        android:background="@android:color/background_dark"
+                        android:paddingBottom="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kilometers"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/row_2"
+                android:paddingBottom="@dimen/row_spacing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/box_pace"
+                    android:paddingRight="@dimen/margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="@dimen/small_value"
+                        android:gravity="center_horizontal"
+                        android:id="@id/pace_value"
+                        android:background="@android:color/background_dark"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:hint="@string/hint"
+                        android:textColorHint="@android:color/holo_orange_dark"
+                        android:textColor="@android:color/holo_orange_dark" />
+
+                    <TextView
+                        android:textSize="@dimen/units"
+                        android:gravity="center_horizontal"
+                        android:id="@id/pace_units"
+                        android:background="@android:color/background_dark"
+                        android:paddingBottom="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/steps_per_minute"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/box_speed"
+                    android:paddingRight="@dimen/margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="@dimen/small_value"
+                        android:gravity="center_horizontal"
+                        android:id="@id/speed_value"
+                        android:background="@android:color/background_dark"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:hint="@string/hint"
+                        android:textColorHint="@android:color/holo_orange_dark"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:textSize="@dimen/units"
+                        android:gravity="center_horizontal"
+                        android:id="@id/speed_units"
+                        android:background="@android:color/background_dark"
+                        android:paddingBottom="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kilometers_per_hour"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/box_calories"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="@dimen/small_value"
+                        android:gravity="center_horizontal"
+                        android:id="@id/calories_value"
+                        android:background="@android:color/background_dark"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:hint="@string/hint"
+                        android:textColorHint="@android:color/holo_orange_dark"
+                        android:textColor="@android:color/holo_green_light" />
+
+                    <TextView
+                        android:textSize="@dimen/units"
+                        android:gravity="center_horizontal"
+                        android:id="@id/calories_units"
+                        android:background="@android:color/background_dark"
+                        android:paddingBottom="@dimen/padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calories_burned"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rg_Run"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#D9318A10">
+
+                <RadioButton
+                    android:id="@+id/rb_walk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Walking"
+                    android:layout_weight="1"
+
+                    android:checked="true"
+                    android:background="@android:color/background_dark"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_bike"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Bicycling"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="@dimen/abc_action_bar_title_text_size"
+                    android:background="@android:color/background_dark" />
+
+                <RadioButton
+                    android:id="@+id/rb_Trafic"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LiveTraffic"
+
+                    android:textColor="@android:color/background_light"
+                    android:textSize="@dimen/abc_action_bar_title_text_size"
+                    android:background="@android:color/background_dark" />
+            </RadioGroup>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="35dp"
+                    class="com.google.android.gms.maps.SupportMapFragment" />
+
+                <RadioGroup
+                    android:id="@+id/rg_views"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+
+                    android:background="@android:color/background_dark">
+
+                    <RadioButton
+                        android:id="@+id/rb_normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/str_rb_normal"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:background="@android:color/background_dark"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+                    <RadioButton
+                        android:id="@+id/rb_satellite"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Satellite"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/abc_action_bar_title_text_size"
+                        android:background="@android:color/background_dark" />
+
+                    <RadioButton
+                        android:id="@+id/rb_terrain"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_rb_terrain"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/abc_action_bar_title_text_size"
+                        android:background="@android:color/background_dark" />
+
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/C:/BSC%20COMPUTING%20SYSTEMS/Final%20Submission%2060%20Marks/dayTrackViralP2/app/src/main/res/layout-normal-land/activity_run.xml -->

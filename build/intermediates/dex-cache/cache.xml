@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-dccd517be2934f36ea26b79159673985766ba84c.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/classes-b14d84825110121b358ed0b16e87a1079ffbcc03.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/classes-4b728f1e839ba1e48c92e927a961d3edcba55ce9.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/classes-2e8c77eec264d2477f34e1dfe0dd0fe36f615239.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/libs/FlurryAnalytics/FlurryAnalytics-5.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9143ea9b390b4f6eeee3673533402669de23ab7e">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/FlurryAnalytics-5.0.0-053ace4d4ec06d0a2b0d2b72529a893f7507bfcc.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-7fdd7807293c683a4bef6644895150e8e11de63e.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.facebook.android/facebook/3.20.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8a25c5aa493da5a603431e1689645812def0ab82">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/classes-589e6e990e0c7b1746ac1d63f27419a79eccaa8a.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/libs/Parse-1.8.1/Parse-1.8.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="dd491448169a0c142a786164b249139d2407a6f9">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/Parse-1.8.1-87c03d6f4fc50a28886dd00269b364d46b9199d7.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/libs/Parse-1.8.1/ParseCrashReporting-1.8.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01cd6a9702d4fdba38c93426da8f2fffc738e107">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.1-1af916de7484b5c34bc41c2077671d8092d36fa8.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bb91f451e4bc3f7f8c7d8620db065c48a0470ad7.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e5531cb41e35c81a051a274945542f6b31e4c97e">
+        <dex dex="/Users/admin/Desktop/DayTrackViralP/app/build/intermediates/pre-dexed/debug/classes-242dc4c2ca85a8c9e7d928166e2bb65075d2f4d8.jar" />
+    </item>
+
+</items>
