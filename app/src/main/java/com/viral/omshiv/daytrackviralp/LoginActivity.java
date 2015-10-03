@@ -122,6 +122,7 @@ public class LoginActivity extends Activity {
 
             @Override
             public void onClick(View view) {
+                //
                 // flurry implementation when user click login button
                 //  progressDialog = ProgressDialog.show(LoginActivity.this, "", "Logging in...", true);
                 FlurryAgent.logEvent("Login Clicked");
