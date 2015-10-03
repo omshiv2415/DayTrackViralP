@@ -30,14 +30,14 @@ import java.util.List;
 
 public class LoginActivity extends Activity {
 
-    Boolean isInternetPresent = true;
-    ConnectionDetector cd;
     protected EditText mUsername;
     protected EditText mPassword;
     protected Button mLoginBtn;
     protected Button mCreateAccountBtn;
     protected Toast toast;
     protected Button PassReset;
+    Boolean isInternetPresent = true;
+    ConnectionDetector cd;
     private Dialog progressDialog;
 
     @Override
@@ -123,7 +123,7 @@ public class LoginActivity extends Activity {
             @Override
             public void onClick(View view) {
                 // flurry implementation when user click login button
-              //  progressDialog = ProgressDialog.show(LoginActivity.this, "", "Logging in...", true);
+                //  progressDialog = ProgressDialog.show(LoginActivity.this, "", "Logging in...", true);
                 FlurryAgent.logEvent("Login Clicked");
                 ConnectionDetector cd;
                 // creating connection detector class instance
