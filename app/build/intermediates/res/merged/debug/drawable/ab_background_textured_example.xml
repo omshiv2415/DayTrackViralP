@@ -17,4 +17,4 @@
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ab_texture_tile_example"
-    android:tileMode="repeat" /><!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/drawable/ab_background_textured_example.xml -->
+    android:tileMode="repeat" /><!-- From: file:/C:/BSC/November%20DayTrackViralP/DayTrackViralP/app/src/main/res/drawable/ab_background_textured_example.xml -->

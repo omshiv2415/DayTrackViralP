@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/values-small/dimens.xml -->
+    <!-- From: file:/C:/BSC/November%20DayTrackViralP/DayTrackViralP/app/src/main/res/values-small/dimens.xml -->
     <eat-comment/>
     <dimen name="box_width">150.0px</dimen>
     <dimen name="button">52.0sp</dimen>
@@ -18,7 +18,7 @@
     <dimen name="third_box_width_middle">104.0px</dimen>
     <dimen name="units">10.0sp</dimen>
     <dimen name="value">30.0sp</dimen>
-    <!-- From: file:/Users/admin/Desktop/DayTrackViralP/app/src/main/res/values-small/strings.xml -->
+    <!-- From: file:/C:/BSC/November%20DayTrackViralP/DayTrackViralP/app/src/main/res/values-small/strings.xml -->
     <eat-comment/>
     <string name="Normal">Normal</string>
     <string name="str_rb_satellite">Satelliter</string>
