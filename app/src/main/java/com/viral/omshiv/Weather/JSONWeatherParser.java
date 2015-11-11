@@ -1,14 +1,3 @@
-/**
- * This is a tutorial source code 
- * provided "as is" and without warranties.
- *
- * For any question please visit the web site
- * http://www.survivingwithandroid.com
- *
- * or write an email to
- * survivingwithandroid@gmail.com
- *
- */
 package com.viral.omshiv.Weather;
 
 import org.json.JSONArray;
